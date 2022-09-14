@@ -1,0 +1,185 @@
+body {
+  margin: 0px;
+  font-family: "Nunito", sans-serif;
+}
+
+.color {
+  z-index: -10;
+  background: linear-gradient(#fae791, #fefbc2);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  z-index: 2;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e3b8fcc;
+  height: 55px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #f9ec88;
+}
+
+nav div img {
+  width: 30px;
+  padding: 5px;
+}
+
+.stardew {
+  margin: 0px;
+  height: 800px;
+}
+
+.top {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/Stardew-top.png");
+  background-position: center;
+  background-repeat: repeat-x;
+  height: 937px;
+  overflow: hidden;
+}
+
+.top img {
+  margin-bottom: 220px;
+}
+
+.imagenes {
+  height: 937px;
+}
+
+.botton {
+  position: absolute;
+  top: 630px;
+  background-image: url("../img/Stardew-botton.png");
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
+  width: 100%;
+  max-height: 541px;
+}
+
+.social-media {
+  display: flex;
+  margin-left: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.social-media a {
+  filter: invert(100%);
+}
+
+.imagenfooter {
+  width: 390px;
+}
+
+footer {
+  background-color: #ffffcc;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-policy a {
+  padding: 5px;
+}
+
+footer a {
+  padding-top: 20px;
+}
+
+.inf {
+  margin-top: 190px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.stores {
+  padding: 10px;
+  width: 60%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stores a img {
+  padding: 30px;
+}
+
+.logos-opacidad a img {
+  height: 68px;
+  padding: 8px;
+  opacity: 50%;
+}
+.logos-opacidad a img:hover {
+  opacity: 100%;
+}
+
+span {
+  color: #ff6835;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.caracteristicas {
+  line-height: 170%;
+  text-align: center;
+  height: 350px;
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #06c;
+  font-family: "Nunito", sans-serif;
+}
+
+h2 {
+  padding-top: 50px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #06c;
+  font-family: "Nunito", sans-serif;
+}
+
+@media screen and (max-width: 1150px) {
+  .social-media {
+    display: none;
+  }
+}
